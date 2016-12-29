@@ -1,0 +1,9 @@
+machine:
+  node:
+    version: latest
+dependencies:
+  pre:
+    - npm i
+deployment:
+  staging:
+    branch: develop
