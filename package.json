@@ -1,10 +1,13 @@
 {
   "name": "package_version_test",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version:minor": "package-version update minor",
+    "version:patch": "package-version update patch",
+    "version:help": "package-version update --help"
   },
   "repository": {
     "type": "git",
