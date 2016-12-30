@@ -1,6 +1,6 @@
 machine:
   node:
-    version: latest
+    version: node
 dependencies:
   pre:
     - npm i
