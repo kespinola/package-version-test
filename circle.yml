@@ -2,8 +2,6 @@ machine:
   node:
     version: node
 dependencies:
-  pre:
-    - npm i
 deployment:
   candidate:
     branch: develop
