@@ -1,7 +1,6 @@
 machine:
   node:
     version: node
-dependencies:
 deployment:
   candidate:
     branch: develop
