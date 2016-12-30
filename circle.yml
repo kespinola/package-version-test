@@ -5,5 +5,19 @@ dependencies:
   pre:
     - npm i
 deployment:
-  staging:
+  candidate:
     branch: develop
+    commands:
+      - npm run version:minor
+      - git add package.json
+      - "git commit '[CI SKIP] update package version'"
+      - git push origin develop
+      - git checkout master
+      - git pull origin master
+      - git merge develop
+      - git push origin master
+  release:
+    branch: master
+    commands:
+     - npm run webpack:build
+
