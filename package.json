@@ -1,13 +1,13 @@
 {
   "name": "package_version_test",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "exit 0",
-    "version:minor": "package-version update minor",
-    "version:patch": "package-version update patch",
-    "version:help": "package-version update --help",
+    "version:minor": "manage-version update minor",
+    "version:patch": "manage-version update patch",
+    "version:help": "manage-version update --help",
     "webpack:build": ""
   },
   "repository": {
