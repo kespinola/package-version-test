@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/ksespinola/package_version_test#readme",
   "dependencies": {
-    "manage-version": "0.0.2"
+    "manage-version": "0.0.3"
   }
 }
