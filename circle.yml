@@ -3,6 +3,8 @@ machine:
     version: 7.3.0
 dependencies:
   override:
+    - git config --global user.email "ksespinola@gmail.com"
+    - git config --global user.name "Kyle Espinola"
     - npm i -g manage-version
 deployment:
   candidate:
