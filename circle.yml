@@ -8,7 +8,6 @@ deployment:
   candidate:
     branch: develop
     commands:
-      - which node
       - manage-version update minor
       - git add package.json
       - "git commit '[CI SKIP] update package version'"
