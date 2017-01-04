@@ -1,11 +1,14 @@
 machine:
   node:
     version: node
+dependencies:
+  override:
+    - npm i -g manage-version
 deployment:
   candidate:
     branch: develop
     commands:
-      - npm run version:minor
+      - mange-version update minor
       - git add package.json
       - "git commit '[CI SKIP] update package version'"
       - git push origin develop
