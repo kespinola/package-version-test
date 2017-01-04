@@ -1,10 +1,14 @@
 {
   "name": "package_version_test",
-  "version": "1.0.0",
+  "version": "1.8.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0",
+    "version:minor": "manage-version update minor",
+    "version:patch": "manage-version update patch",
+    "version:help": "manage-version update --help",
+    "webpack:build": ""
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ksespinola/package_version_test/issues"
   },
-  "homepage": "https://github.com/ksespinola/package_version_test#readme"
+  "homepage": "https://github.com/ksespinola/package_version_test#readme",
+  "dependencies": {
+    "manage-version": "latest"
+  }
 }
