@@ -10,7 +10,7 @@ deployment:
     commands:
       - manage-version update minor
       - git add package.json
-      - "git commit '[CI SKIP] update package version'"
+      - git commit -m '[CI SKIP] update package version'
       - git push origin develop
       - git checkout master
       - git pull origin master

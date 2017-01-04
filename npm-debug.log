@@ -6,42 +6,43 @@
 2 info using npm@3.10.8
 3 info using node@v7.0.0
 4 verbose run-script [ 'preversion:minor', 'version:minor', 'postversion:minor' ]
-5 info lifecycle package_version_test@1.7.0~preversion:minor: package_version_test@1.7.0
-6 silly lifecycle package_version_test@1.7.0~preversion:minor: no script for preversion:minor, continuing
-7 info lifecycle package_version_test@1.7.0~version:minor: package_version_test@1.7.0
-8 verbose lifecycle package_version_test@1.7.0~version:minor: unsafe-perm in lifecycle true
-9 verbose lifecycle package_version_test@1.7.0~version:minor: PATH: /Users/kyleespinola/.nvm/versions/node/v7.0.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/kyleespinola/Documents/Projects/procore/package_version_test/node_modules/.bin:/Users/kyleespinola/.rvm/gems/ruby-2.3.1/bin:/Users/kyleespinola/.rvm/gems/ruby-2.3.1@global/bin:/Users/kyleespinola/.rvm/rubies/ruby-2.3.1/bin:/Users/kyleespinola/.asdf/bin:/Users/kyleespinola/.asdf/shims:/Users/kyleespinola/.nvm/versions/node/v7.0.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/kyleespinola/.rvm/bin:/Users/kyleespinola/.fzf/bin
-10 verbose lifecycle package_version_test@1.7.0~version:minor: CWD: /Users/kyleespinola/Documents/Projects/procore/package_version_test
-11 silly lifecycle package_version_test@1.7.0~version:minor: Args: [ '-c', 'manage-version update minor' ]
-12 info lifecycle package_version_test@1.7.0~version:minor: Failed to exec version:minor script
-13 verbose stack Error: package_version_test@1.7.0 version:minor: `manage-version update minor`
-13 verbose stack spawn ENOENT
-13 verbose stack     at ChildProcess.<anonymous> (/Users/kyleespinola/.nvm/versions/node/v7.0.0/lib/node_modules/npm/lib/utils/spawn.js:33:16)
-13 verbose stack     at emitTwo (events.js:106:13)
-13 verbose stack     at ChildProcess.emit (events.js:191:7)
-13 verbose stack     at maybeClose (internal/child_process.js:877:16)
-13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
-14 verbose pkgid package_version_test@1.7.0
-15 verbose cwd /Users/kyleespinola/Documents/Projects/procore/package_version_test
-16 error Darwin 16.1.0
-17 error argv "/Users/kyleespinola/.nvm/versions/node/v7.0.0/bin/node" "/Users/kyleespinola/.nvm/versions/node/v7.0.0/bin/npm" "run" "version:minor"
-18 error node v7.0.0
-19 error npm  v3.10.8
-20 error file sh
+5 info lifecycle package_version_test@1.7.1~preversion:minor: package_version_test@1.7.1
+6 silly lifecycle package_version_test@1.7.1~preversion:minor: no script for preversion:minor, continuing
+7 info lifecycle package_version_test@1.7.1~version:minor: package_version_test@1.7.1
+8 verbose lifecycle package_version_test@1.7.1~version:minor: unsafe-perm in lifecycle true
+9 verbose lifecycle package_version_test@1.7.1~version:minor: PATH: /Users/kyleespinola/.nvm/versions/node/v7.0.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/kyleespinola/Documents/Projects/procore/package_version_test/node_modules/.bin:/Users/kyleespinola/.rvm/gems/ruby-2.3.1/bin:/Users/kyleespinola/.rvm/gems/ruby-2.3.1@global/bin:/Users/kyleespinola/.rvm/rubies/ruby-2.3.1/bin:/Users/kyleespinola/.asdf/bin:/Users/kyleespinola/.asdf/shims:/Users/kyleespinola/.nvm/versions/node/v7.0.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/kyleespinola/.rvm/bin:/Users/kyleespinola/.fzf/bin
+10 verbose lifecycle package_version_test@1.7.1~version:minor: CWD: /Users/kyleespinola/Documents/Projects/procore/package_version_test
+11 silly lifecycle package_version_test@1.7.1~version:minor: Args: [ '-c', 'manage-version update minor' ]
+12 silly lifecycle package_version_test@1.7.1~version:minor: Returned: code: 126  signal: null
+13 info lifecycle package_version_test@1.7.1~version:minor: Failed to exec version:minor script
+14 verbose stack Error: package_version_test@1.7.1 version:minor: `manage-version update minor`
+14 verbose stack Exit status 126
+14 verbose stack     at EventEmitter.<anonymous> (/Users/kyleespinola/.nvm/versions/node/v7.0.0/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/Users/kyleespinola/.nvm/versions/node/v7.0.0/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid package_version_test@1.7.1
+16 verbose cwd /Users/kyleespinola/Documents/Projects/procore/package_version_test
+17 error Darwin 16.1.0
+18 error argv "/Users/kyleespinola/.nvm/versions/node/v7.0.0/bin/node" "/Users/kyleespinola/.nvm/versions/node/v7.0.0/bin/npm" "run" "version:minor"
+19 error node v7.0.0
+20 error npm  v3.10.8
 21 error code ELIFECYCLE
-22 error errno ENOENT
-23 error syscall spawn
-24 error package_version_test@1.7.0 version:minor: `manage-version update minor`
-24 error spawn ENOENT
-25 error Failed at the package_version_test@1.7.0 version:minor script 'manage-version update minor'.
-25 error Make sure you have the latest version of node.js and npm installed.
-25 error If you do, this is most likely a problem with the package_version_test package,
-25 error not with npm itself.
-25 error Tell the author that this fails on your system:
-25 error     manage-version update minor
-25 error You can get information on how to open an issue for this project with:
-25 error     npm bugs package_version_test
-25 error Or if that isn't available, you can get their info via:
-25 error     npm owner ls package_version_test
-25 error There is likely additional logging output above.
-26 verbose exit [ 1, true ]
+22 error package_version_test@1.7.1 version:minor: `manage-version update minor`
+22 error Exit status 126
+23 error Failed at the package_version_test@1.7.1 version:minor script 'manage-version update minor'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the package_version_test package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     manage-version update minor
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs package_version_test
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls package_version_test
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
