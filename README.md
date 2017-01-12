@@ -2,7 +2,7 @@
 [![Develop Status](https://circleci.com/gh/ksespinola/package-version-test.png?circle-token=9bbfc3d5d29d851f695f02ca49d3de9d56ae7943)](https://circleci.com/gh/ksespinola/package-version-test/tree/develop)
 
 This repo provides a possible means of introducing automated semver versioning based on the last branch merged
-into `develop`.
+into `master`.
 
 ## Steps
 1. Merge branch into `master` from github with a label of `major`, `minor`, or `patch`
