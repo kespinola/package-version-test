@@ -15,7 +15,3 @@ deployment:
       - git commit -m '[CI SKIP] update package version'
       - git push origin head
       - npm run webpack:build
-  release:
-    branch: master
-    commands:
-
