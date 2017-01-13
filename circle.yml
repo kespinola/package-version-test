@@ -10,7 +10,7 @@ deployment:
   release:
     branch: master
     commands:
-      - /opt/circleci/nodejs/v7.3.0/bin/node --harmony manage-version update github -o ksespinola -r package-version-test -t $GITHUB_TOKEN -n ${CIRCLE_PULL_REQUEST##*/}
+      - /opt/circleci/nodejs/v7.3.0/bin/node --harmony /opt/circleci/nodejs/v7.3.0/lib/node_modules/manage-version/manage-version update github -o ksespinola -r package-version-test -t $GITHUB_TOKEN -n ${CIRCLE_PULL_REQUEST##*/}
       - git add package.json
       - git commit -m '[CI SKIP] update package version'
       - git push origin head
