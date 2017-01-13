@@ -1,6 +1,6 @@
 {
   "name": "package_version_test",
-  "version": "1.10.0",
+  "version": "1.13.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,7 @@
     "version:minor": "manage-version update minor",
     "version:patch": "manage-version update patch",
     "version:help": "manage-version update --help",
+    "version:github": "manage-version update github -o ksespinola -r package-version-test -t ${GITHUB_TOKEN}",
     "webpack:build": ""
   },
   "repository": {
