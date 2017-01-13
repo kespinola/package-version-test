@@ -14,4 +14,3 @@ deployment:
       - git add package.json
       - git commit -m '[CI SKIP] update package version'
       - git push origin master
-      - npm run webpack:build
