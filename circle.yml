@@ -5,9 +5,4 @@ dependencies:
   override:
     - git config --global user.email "ksespinola@gmail.com"
     - git config --global user.name "Kyle Espinola"
-    - npm i -g manage-version
-deployment:
-  release:
-    branch: master
-    commands:
-      - npm run build:test
+    - npm run build:test
