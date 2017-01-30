@@ -10,4 +10,4 @@ deployment:
   release:
     branch: master
     commands:
-      - ./bin/release.sh
+      - npm run build:test

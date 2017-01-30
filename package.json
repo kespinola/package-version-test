@@ -1,6 +1,6 @@
 {
   "name": "package_version_test",
-  "version": "2.0.1",
+  "version": "2.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "version:patch": "manage-version update patch",
     "version:help": "manage-version update --help",
     "version:github": "manage-version update github -o ksespinola -r package-version-test -t ${GITHUB_TOKEN}",
-    "webpack:build": ""
+    "build:test": "bin/release.sh"
   },
   "repository": {
     "type": "git",
