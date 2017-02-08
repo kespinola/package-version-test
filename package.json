@@ -9,7 +9,7 @@
     "version:patch": "manage-version update patch",
     "version:help": "manage-version update --help",
     "version:github": "manage-version update github -o ksespinola -r package-version-test -t ${GITHUB_TOKEN}",
-    "build:test": "bin/release.sh"
+    "release": "bin/release.sh"
   },
   "repository": {
     "type": "git",
