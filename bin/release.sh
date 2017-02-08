@@ -9,5 +9,5 @@ git commit -m "[CI SKIP] version updated to $VERSION"
 git push origin master
 
 curl -H "Content-type: application/json" -H "Authorization: token $GITHUB_TOKEN" \
-  --data '{"tag_name": "'"$VERSION"'", "name": "'"Release $VERSION"'", "body": "'"#$CIRCLE_PR_NUMBER"'"}' \
+  --data '{"tag_name": "'"$VERSION"'", "name": "'"Release $VERSION"'"}' \
    https://api.github.com/repos/ksespinola/package-version-test/releases
